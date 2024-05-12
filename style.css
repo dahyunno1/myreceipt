@@ -59,3 +59,7 @@
   font-weight: 400;
   font-style: normal;
 }
+
+a:active {
+  opacity: 0.5;
+}
