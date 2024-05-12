@@ -63,3 +63,13 @@
 a:active {
   opacity: 0.5;
 }
+
+@keyframes blink {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+#receiptTitle {
+  animation: blink 1.5s infinite;
+}
